@@ -8,7 +8,7 @@ i will add a revision summary of skills i have had till my airtel journey updati
 
  * **0.1 ArrayList, HashMap, HashSet, PriorityQueue, Stack, Queue -> LinkedList / ArrayDeque**
  * **0.2 Comparator and comparable interface**
- * **0.3 revise Patterns template codes**
+ * **0.3 Revise Patterns template codes**
  * **0.4 Important libraries**
    * Arrays, Collections -> to fill, sort, reverse, binarySearch
    * String and StringBuilder ->
