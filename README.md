@@ -95,6 +95,299 @@ tech stack :
 
 
 
+# 🚀 SDE-2 Skills Inventory (Post Airtel XLabs)
+
+Revision summary of skills acquired during my Airtel journey.
+Maintained as a **switch-prep checklist + revision sheet**.
+
+---
+
+# 📚 Table of Contents
+
+* [DSA](#-dsa)
+* [Java](#-java)
+* [Spring WebFlux](#-spring-webflux)
+* [Spring Boot](#-spring-boot)
+* [Kafka](#-apache-kafka)
+* [Security](#-keycloak)
+* [Datastores](#-datastores)
+* [Cloud / Platform](#-cloud--platform)
+* [System Design](#-system-design)
+
+---
+
+# 🧠 DSA
+
+* Arrays
+* Strings
+* Sliding Window
+* Two Pointer
+* Stack / Queue
+* Trees
+* Graphs
+* Heap
+* Recursion / Backtracking
+* Dynamic Programming
+
+---
+
+# ☕ Java
+
+## Core
+
+* Core Java
+* OOPS with Java
+* Exception Handling
+* Generics
+* Streams API
+* Lambda Expressions
+* Java 8 features
+* Java 21 features
+
+---
+
+## Java Collections Framework
+
+* Iterator implementations
+* HashMap
+* Concurrent Collections
+
+---
+
+## Multithreading / Executor Framework
+
+### Runnable & Thread
+
+* Object.wait()
+* Object.notify()
+* Object.notifyAll()
+* Thread.sleep()
+* run() method
+* Thread.currentThread().getName()
+
+### Callable
+
+* call() method (returns value)
+
+### FutureTask
+
+* Adapter between Thread & Callable
+* get()
+
+### Synchronization Utilities
+
+* CountDownLatch → countDown(), await()
+* CyclicBarrier → await()
+
+### Synchronization
+
+* synchronized method
+* synchronized block
+
+### Lock-free Synchronization
+
+* volatile
+* immutable objects (final)
+* AtomicBoolean
+* AtomicReference
+* CAS operations
+
+### Locks
+
+* ReentrantLock
+* Critical section locking
+
+---
+
+## Utility Libraries
+
+* Collections
+* Arrays
+* Math
+* Objects (null safety)
+* Optional
+
+---
+
+## Strings
+
+* String
+* StringBuilder
+* StringBuffer
+
+---
+
+# ⚡ Spring WebFlux (Reactive Programming)
+
+## Concepts
+
+* Reactive Programming
+* Event Loop
+* Backpressure
+* Non-blocking IO
+* Async processing
+
+---
+
+## Reactive Streams Interfaces
+
+### Publisher
+
+```java
+public interface Publisher<T> {
+    void subscribe(Subscriber<? super T> s);
+}
+```
+
+### Subscriber
+
+```java
+public interface Subscriber<T> {
+    void onSubscribe(Subscription s);
+    void onNext(T t);
+    void onError(Throwable t);
+    void onComplete();
+}
+```
+
+### Subscription
+
+```java
+public interface Subscription {
+    void request(long n);
+    void cancel();
+}
+```
+
+### Processor
+
+```java
+public interface Processor<T,R>
+        extends Subscriber<T>, Publisher<R> {
+}
+```
+
+---
+
+## Special Publishers
+
+* Mono → 0..1 result
+* Flux → 0..N result
+
+---
+
+## Common Operators
+
+### Creation
+
+* Mono.empty()
+* Flux.empty()
+* Mono.just()
+* Flux.just()
+
+### Transform
+
+* map() → synchronous transform
+* flatMap() → async transform
+* flatMapMany() → Mono → Flux
+
+### Combining
+
+* zipWith()
+* Mono.zip()
+* Flux.zip()
+
+---
+
+# 🌱 Spring Boot
+
+* REST APIs
+* Auto configuration
+* Dependency injection
+* Profiles
+* Configuration properties
+* Actuator
+
+---
+
+# 📨 Apache Kafka
+
+* Producer
+* Consumer
+* Consumer Groups
+* Offsets
+* Partitions
+* Kafka Streams
+* Retry / DLQ
+
+---
+
+# 🔐 Keycloak
+
+* OAuth2
+* OpenID Connect
+* JWT
+* Role based access
+* Client credentials
+* Token validation
+
+---
+
+# 🗄 Datastores
+
+## NoSQL
+
+* MongoDB
+* Aerospike
+* ElasticSearch
+
+## SQL
+
+* Joins
+* Indexes
+* Query optimization
+* Transactions
+
+---
+
+# ☁️ Cloud / Platform
+
+* AWS
+* RedHat OpenShift (OCP)
+* Containers
+* Deployment configs
+* Scaling
+
+---
+
+# 🏗 System Design
+
+## LLD
+
+* SOLID principles
+* Design patterns
+* Interface driven design
+* Thread safe design
+
+## HLD
+
+* Microservices
+* Event driven architecture
+* Caching
+* Load balancing
+* Circuit breaker
+* API Gateway
+* Distributed systems
+
+---
+
+# 🎯 Target Role
+
+**Backend Engineer / SDE-2 / SDE-3**
+Java • Spring • WebFlux • Distributed Systems • High Scale
+
+
+
 System Design
 
 1. LLD
