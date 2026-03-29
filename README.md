@@ -6,6 +6,21 @@ i will add a revision summary of skills i have had till my airtel journey updati
 
 ## 0. DSA
 
+ * **0.1 ArrayList, HashMap, HashSet, PriorityQueue, Stack, Queue -> LinkedList / ArrayDeque**
+ * **0.2 Comparator and comparable interface**
+ * **0.3 revise Patterns template codes**
+ * **0.4 Important libraries**
+   * Arrays, Collections -> to fill, sort, reverse, binarySearch
+   * String and StringBuilder ->
+        * String remains as it is -> single string fetching, searching a char, searching a pattern
+        * String is divided -> convert to character array, split, subArray a string
+        * String is transformed -> toUpperCase(), toLowerCase()
+        * two strings compared -> equals(), equalsIgnoreCase(), .compare() -> chronological comparision
+        * StringBuilder
+             * reverse an array -> sb.reverse().toString()
+             * add string to back -> append()
+*  **0.5 Dsa notes notebooks DSA sheet from TakeUForward**
+
 ## 1. Java
 
 * **1.1 Core java**
