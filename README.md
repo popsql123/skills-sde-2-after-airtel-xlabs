@@ -29,8 +29,8 @@ i will add a revision summary of skills i have had till my airtel journey updati
 
 * **1.3 java collections framework**
 
-  * 1.3.1 iterator implementations
-  * 1.3.2 hashmap
+  * 1.3.1 Iterable classes 
+  * 1.3.2 Map classes
   * 1.3.3 java concurrent collections
 
 * **1.4 java executor framework / multi-threading in java**
