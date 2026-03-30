@@ -1,4 +1,4 @@
-## I am a Senior Software engineer with genuine ground experience. I am confident, calm and structured. Company is not choosing me i am chhoosing the company
+## I am a Senior Software engineer with genuine ground experience. I am confident, calm and structured. Company is not choosing me i am choosing the company
 
 
 # Brief Introduction
