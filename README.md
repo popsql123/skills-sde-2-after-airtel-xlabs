@@ -80,7 +80,7 @@ i will add a revision summary of skills i have had till my airtel journey updati
 
 * 1.10 lambda expressions
 
-* 1.11 features in important versions of java - 8, 21
+* 1.11 features in important versions of java - 8, 11, 17, 21, 25
 
 ---
 
