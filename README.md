@@ -170,6 +170,22 @@ i will add a revision summary of skills i have had till my airtel journey updati
 # System Design
 
 ## 1. LLD
+ 0 delivery framework
+ 1. design principles
+    DRY, YAGNI, KISS, law of demeter
+ 2. oops principles
+    encapsulation, inheritence, popymorphism, abstraction
+ 3. design patterns
+.    creational, structural, behavioural
+ 
+ 4. Conurrency
+.   4.1 correctness
+.   4.2 coordination
+.   4.3 scarcity
+
+5. design problems
+  5.1 connect four
+. 5.2 
 
 ## 2. HLD
 
