@@ -177,15 +177,15 @@ i will add a revision summary of skills i have had till my airtel journey updati
     encapsulation, inheritence, popymorphism, abstraction
  3. design patterns
 .    creational, structural, behavioural
+ SBF, DF, SOS
  
  4. Conurrency
 .   4.1 correctness
 .   4.2 coordination
 .   4.3 scarcity
 
-5. design problems
-  5.1 connect four
-. 5.2 
+5. problems patterns
+  5.1 HABITS-TIQW
 
 ## 2. HLD
 
